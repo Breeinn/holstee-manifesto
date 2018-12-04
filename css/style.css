@@ -1,0 +1,87 @@
+body {
+  background-color: black;
+  margin: auto;
+}
+
+main {
+  border: 10px solid lightgray;
+  height: 1010px;
+  margin: auto;
+  /*overflow: auto;  removed per Ann suggestion*/
+  width: 404px;
+}
+
+div {
+  float:left;
+}
+
+.clear {
+  clear:left;
+}
+
+/* Start of .rectangle classes */
+
+.rectangle {
+  background-color: #b2ad7f;
+  font-size: 24px;
+  height: 404px;
+  text-align: center;
+  width: 202px;
+}
+
+.font-1 {
+  font-family: 'Oswald', sans-serif;
+  line-height: 32px;
+}
+
+.font-2 {
+  font-family: 'Quattrocento', serif;
+  line-height: 30px;
+}
+
+.marg-1 {
+  margin: 20px 10px 10px 10px;
+}
+
+.marg-2 {
+  margin: 30px 10px 10px 10px;
+}
+
+/* Start of .square classes */
+
+.square {
+  font-family: 'Quattrocento', serif;
+  font-size: 18px;
+  height: 202px;
+  text-align: center;
+  width: 202px;
+}
+
+.color-1 {
+  background-color: #6b5b95;
+}
+
+.color-2 {
+  background-color: #c5ecdf;
+}
+
+.color-3 {
+  background-color: #878f99;
+}
+
+.font-3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+}
+
+.marg-3 {
+  margin: 50px 10px;
+}
+
+.marg-4 {
+  margin: 60px 10px;
+}
+
+.marg-5 {
+  margin: 80px 10px;
+}
